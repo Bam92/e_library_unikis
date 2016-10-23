@@ -9,3 +9,5 @@ body {
     font-size: 16px;
     background-image: url('../background.png');
 } 
+
+li {list-style-type: none;}
