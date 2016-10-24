@@ -11,3 +11,14 @@ body {
 } 
 
 li {list-style-type: none;}
+nav {
+    background-image: url('../background.png');
+    
+}
+
+ul {
+    margin-left: -50px;
+    font-size: 1.7em;
+}
+
+a:hover {font-weight: bold;}
