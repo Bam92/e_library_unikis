@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 class *="col" { margin-bottom : 20px ; } 
-img { width : 100 %; } 
 
 body {
     /*margin-top: 10px;*/
@@ -22,3 +21,16 @@ ul {
 }
 
 a:hover {font-weight: bold;}
+
+img {
+    height: 100%;
+    width: 100%;
+    
+}
+.item {
+    height: 400px;
+}
+
+footer {
+    margin-top: 20px;
+}
