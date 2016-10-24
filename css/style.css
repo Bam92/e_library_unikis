@@ -20,14 +20,8 @@ ul {
     font-size: 1.7em;
 }
 
-a:hover {
-    font-weight: bold;
-    text-decoration: none;
-    background-color: #b9bbbd;
-}
-a:active {
-    background-color: #b9bbbd;
-}
+a:hover {font-weight: bold;}
+
 img {
     height: 100%;
     width: 100%;
