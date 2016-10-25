@@ -6,9 +6,19 @@ body {
     margin: auto;
     font-family: Roboto, serif;
     font-size: 16px;
-    /*background-image: url('../background.png');*/
+    background: url('../img/background.jpg') no-repeat scroll;
 } 
+.jumbotron {
+    background: url('../img/bg-banner.jpg');
+   
+}
+.jumbotron h1 {
 
+}
+#title{
+    margin-top: 150px;
+    color: white;
+}
 li {
     /*list-style-type: none;*/
     border-bottom: 1px solid cyan;
@@ -19,8 +29,8 @@ nav {
    /* background-image: url('../background.png');*/
     
 }
-.navbar {
-    width: 30px;
+.navbar, hr {
+    width: 200px;
     box-shadow: 2px 2px yellow;
 }
 ul {
