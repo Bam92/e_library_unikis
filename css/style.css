@@ -1,9 +1,9 @@
 @font-face { /* Personnal font Lucida grande*/
     font-family: 'Lucida Grande';
-    src: url('../fonts/lucida-grande.eot');
-    src: url('../fonts/lucida-grande.ttf') format('truetype'),
-         url ('../fonts/lucida-grande.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/lucida-grande.woff') format('woff');
+    src: url('lucida-grande.eot');
+    src: url('lucida-grande.ttf') format('truetype'),
+         url ('lucida-grande.eot?#iefix') format('embedded-opentype'),
+         url('lucida-grande.woff') format('woff');
     
 }
 class *="col" { margin-bottom : 20px ; } 
@@ -17,13 +17,18 @@ body {
 } 
 .jumbotron {
     background: url('../img/bg-banner.jpg');
+    height: 250px;
    
 }
 .jumbotron h1 {
-
+font-size: 5em;
+}
+.jumbotron h2 {
+font-size: 45px;
+margin-top: auto;
 }
 #title{
-    margin-top: 150px;
+    margin-top: 20px;
     color: white;
 }
 li {
