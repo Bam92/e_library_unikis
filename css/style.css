@@ -1,10 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
+@font-face { /* Personnal font Lucida grande*/
+    font-family: 'Lucida Grande';
+    src: url('../fonts/lucida-grande.eot');
+    src: url('../fonts/lucida-grande.ttf') format('truetype'),
+         url ('../fonts/lucida-grande.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lucida-grande.woff') format('woff');
+    
+}
 class *="col" { margin-bottom : 20px ; } 
 
 body {
     /*margin-top: 10px;*/
     margin: auto;
-    font-family: Roboto, serif;
+    font-family: 'Lucida Grande', serif;
     font-size: 16px;
     background: url('../img/background.jpg') no-repeat scroll;
 } 
@@ -20,9 +27,10 @@ body {
     color: white;
 }
 li {
-    /*list-style-type: none;*/
-    border-bottom: 1px solid cyan;
+    /*list-style-type: none;
+    border-bottom: 1px solid cyan;*/
     color: inherit;
+    list-style-image: url(../img/puce_perso.png)
     
 }
 nav {
@@ -31,7 +39,7 @@ nav {
 }
 .navbar, hr {
     width: 200px;
-    box-shadow: 2px 2px yellow;
+    box-shadow: 2px 2px #1c96c9;
 }
 ul {
     /*margin-left: -50px;
@@ -50,6 +58,11 @@ img {
     height: 400px;
 }
 
+hr{
+    position: absolute;
+    right: -1px;
+    
+}
 footer {
     margin-top: 20px;
 }
