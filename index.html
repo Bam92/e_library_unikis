@@ -50,8 +50,9 @@
     <div class="container" role="main" id="main-content">
         <!-- Menus align left-->
         <nav class="col-md-push-9 xol-md-offset-1 col-md-3 navbar navbar-default">
-            <ul><hr />
+            <ul><hr /><span id="puce"></span>
                 <li><a data-toggle="tooltip" href="#" title="L'encyclopédie libre">Wikipédia</a></li><hr />
+                
                 <li><a data-toggle="tooltip" href="#" title="Télécharger des livres numériques">Ebooks</a></li><hr />
                 <li><a data-toggle="tooltip" href="#" title="L'encyclopédie libre">Wikibooks</a></li><hr />
                 <li><a data-toggle="tooltip" href="#" title="Trouver des définitions">Wikitionnaire</a></li><hr />
@@ -61,7 +62,7 @@
                 <li><a data-toggle="tooltip" href="#" title="Télécharger des vidéos">Médiathèque</a></li><hr />
                 <li><a data-toggle="tooltip" href="#" title="Bibliothèque des logiciels">Logithèque</a></li><hr />
                 <li><a data-toggle="tooltip" href="#" title="Charte d'utilisation de la bibliothèque">EULA</a></li>
-                <li><a data-toggle="tooltip" href="#" title="Charte d'utilisation de la bibliothèque">Sensibilisation</a></li>
+                <li><a data-toggle="tooltip" href="#" title="Bonne pratique & protection">Sensibilisation</a></li>
             </ul>
         </nav>
         
@@ -81,7 +82,7 @@
                     <div class="item active" > <img alt="" src="img/slide/1.jpg">
                         <div class="carousel-caption">
                            
-                            <p><strong>Université de Kisangani</strong>: Bienvenu sur votre bibliothèque numérique. Vous y trouverez des livres, des audios et des vidéos. Un click dessus et c'est part ...</p>
+                            <p><strong>Université de Kisangani</strong>: Bienvenue sur votre bibliothèque numérique. Vous y trouverez des livres, des audios et des vidéos. Un click dessus et c'est part ...</p>
 
                         </div>
                     </div>
@@ -137,9 +138,13 @@
        <script>
            $(function () {
                $("a").tooltip();
-               $("li").mouseover(function () {
-                   $(this).fadeOut(1500, "linear").fadeIn("slow");
+               $("#puce").mouseover(function () {
+                   /*$(this).css("background", "black");
+                   $("a").css("color", "white");*/
+                   
+                   //$(this).fadeOut(1500, "linear").fadeIn("slow");
                });
+               
            });
        </script>
   </body>

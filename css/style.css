@@ -53,6 +53,10 @@ font-size: 45px;
     
     /*border: 2px solid red;*/
 }
+
+/*
+* Navigattion
+*/
 li {
     /*list-style-type: none;
     border-bottom: 1px solid cyan;*/
@@ -74,7 +78,10 @@ ul {
     
 }
 
-a:hover {font-weight: bold;}
+a:hover {
+    font-weight: bold;
+    /*color: white;*/
+}
 
 img {
     height: 500px;
@@ -87,7 +94,21 @@ hr{
     right: -1px;
     
 }
-
+hr:hover{
+   
+}
+#puce {
+    /*border: 2px solid red;
+    width: 200px;
+    height: 25px;
+position: absolute;
+right: -1px;*/
+}
+#puce:hover {
+    color: white;
+    /*background-color: black;*/
+    
+}
 /*
 * Slideshow
 */
